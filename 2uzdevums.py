@@ -11,3 +11,12 @@
     Atgriež:
         int vai float -- argumentu summa
  """
+import math
+import decimal
+a=input()
+b=input()
+c=input()
+def akrs (a, b, c):
+    kvadrats=float(pow(a,2)+pow(b,2)+pow(c,2))
+    return kvadrats
+print( '%.4f'% akrs(a, b, c))
